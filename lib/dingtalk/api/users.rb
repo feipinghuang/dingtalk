@@ -10,6 +10,11 @@ module Dingtalk
         response = self.class.get('/user/get', query: { userid: userid })
         response.parsed_response
       end
+
+      def get_by_mobile(mobile)
+        response = self.class.get('/user/get_by_mobile', query: { mobile: mobile })
+        response.parsed_response
+      end
     end
   end
 end
