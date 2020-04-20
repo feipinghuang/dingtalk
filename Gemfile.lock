@@ -2,14 +2,15 @@ PATH
   remote: .
   specs:
     dingtalk (0.1.0)
-      anyway_config (= 1.4.4)
+      anyway_config (= 2.0.1)
       httparty (~> 0.16)
       redis (~> 3.3, >= 3.3.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    anyway_config (1.4.4)
+    anyway_config (2.0.1)
+      ruby-next-core (>= 0.5.1)
     httparty (0.18.0)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
@@ -19,6 +20,7 @@ GEM
     multi_xml (0.6.0)
     rake (13.0.1)
     redis (3.3.5)
+    ruby-next-core (0.5.3)
 
 PLATFORMS
   ruby
